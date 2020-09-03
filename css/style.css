@@ -162,10 +162,5 @@ button {
   color: lightgrey;
 }
 
-#neweffect {
-  position: absolute;
-  color: #EB008D;
-  font-size: 1.0rem;
-  transform: translateY(-50%);
-}
 /* end main */
+/* end */
