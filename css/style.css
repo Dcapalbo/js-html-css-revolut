@@ -98,6 +98,7 @@ button {
 }
 
 .specific-window li {
+  position: relative;
   list-style: none;
   display: block;
   text-align: left;
@@ -106,5 +107,12 @@ button {
   text-transform: capitalize;
   font-size: 1.2rem;
   color: lightgrey;
+}
+
+#neweffect {
+  position: absolute;
+  color: #EB008D;
+  font-size: 1.0rem;
+  transform: translateY(-50%);
 }
 /* end main */
