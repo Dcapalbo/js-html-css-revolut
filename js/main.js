@@ -1,27 +1,23 @@
 $(document).ready(function () {
   $("#tar").hover(
   function() {
-    $(".specific-window").fadeToggle(1000);
+    $(".specific-window-tariffazione").fadeToggle(200);
    }
   );
-
   $("#conti").hover(
   function() {
-    $(".specific-window").fadeToggle(1000);
+    $(".specific-window-conti").fadeToggle(200);
   });
-
   $("#prod").hover(
   function() {
-    $(".specific-window").fadeToggle(1000);
+    $(".specific-window-prodotti").fadeToggle(200);
   });
-
   $("#window").hover(
   function() {
-    $(".specific-window").fadeToggle(1000);
+    $(".specific-window-azienda").fadeToggle(200);
   });
-
   $("#help").hover(
   function() {
-    $(".specific-window").fadeToggle(1000);
+    $(".specific-window-aiuto").fadeToggle(200);
   });
 });
