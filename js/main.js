@@ -1,7 +1,7 @@
 $(document).ready(function () {
   $("#window").hover(
   function() {
-    $(".specific-window").toggle();
+    $(".specific-window").fadeToggle(1500);
   }
  );
 });

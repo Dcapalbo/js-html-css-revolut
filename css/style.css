@@ -72,7 +72,11 @@ button {
   left: 120%;
 }
 
-
+#window:hover {
+  cursor: pointer;
+  color: lightblue;
+  animation: 3s;
+}
 /* end Header */
 /* main */
 .container-window {
@@ -90,6 +94,7 @@ button {
   border-radius: 3px;
   float: right;
   border: solid 0.1px #000;
+  display: none;
 }
 
 .specific-window li {
