@@ -4,6 +4,10 @@
   margin: 0px;
 }
 
+.margin-top {
+  margin-top: 30px;
+}
+
 .container {
   margin: auto;
   width: 70%;
@@ -13,7 +17,7 @@
 }
 
 img {
-  margin-top: 22px;
+  transform:translateY(30%);
   width: 110px;
   height: 50px;
 }
@@ -21,7 +25,6 @@ img {
 .nav-left {
   height: 100px;
   line-height: 100px;
-
 }
 
 #grey {
@@ -39,14 +42,31 @@ img {
 .nav-right {
   height: 100px;
   line-height: 100px;
-  float: left;
 }
 
 .nav-right li {
   display: inline;
-  list-style:none;
+  position: relative;
+  list-style: none;
   padding-left: 20px;
-  color: grey;
+  color: lightgrey;
   text-transform: capitalize;
   font-size: 1.2rem;
+}
+
+button {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  background-color: #EB008D;
+  border-radius: 20px;
+  border: #fff;
+  font-weight: bold;
+}
+
+.fa-angle-down {
+  font-size: 15px;
+  position: absolute;
+  top:45%;
+  left: 120%;
 }
